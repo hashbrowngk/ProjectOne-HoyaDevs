@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Marcellus";
+
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.navbar p {
+    font-size: 20px;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.leftSide img {
+    margin-right: 15px;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+}
+
+#welcomepage {
+    margin-right: 15px;
+}
+
+#resumepage {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#aboutmepage {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#contactpage {
+    margin-left: 15px;
+}
+
+.contentMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 90px;
+    margin-right: 50px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+    margin-left: 80px;
+}
+
+.left h1 {
+    font-size: 80px;
+}
+
+.left p {
+    font-size: 18px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+#githubbutton {
+    display: flex;  
+    align-items: center;
+    background-color: #A2C7A5;
+    text-decoration: none;
+    padding: 15px;
+    margin-right: 30px;
+    width: 110px;
+}
+
+#githubbutton p {
+    font-size: 15px;
+}
+
+#githubbutton img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+#resumebutton {
+    display: flex;  
+    align-items: center;
+    align-items: center;
+    background-color: #A2C7A5;
+    text-decoration: none;
+    padding: 15px;
+    width: 110px;
+}
+
+#resumebutton p {
+    font-size: 15px;
+}
+
+#resumebutton img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+#profile {
+    width: 520px;
+}
+
+
